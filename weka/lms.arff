@@ -1,0 +1,23 @@
+@RELATION lms
+
+@ATTRIBUTE attitude {veryhigh,high,medium,verylow,low}
+@ATTRIBUTE attendance {veryhigh,high,medium,verylow,low}
+@ATTRIBUTE foundation {veryhigh,high,medium,verylow,low}
+@ATTRIBUTE specialization {veryhigh,high,medium,verylow,low}
+@ATTRIBUTE project {veryhigh,high,medium,verylow,low}
+@ATTRIBUTE class {star,kudoos,participation}
+
+
+@DATA
+veryhigh,veryhigh,veryhigh,veryhigh,veryhigh,star
+high,veryhigh,medium,medium,medium,kudoos
+high,high,low,low,verylow,participation
+medium,low,high,low,high,participation
+high,low,medium,medium,high,kudoos
+medium,low,veryhigh,high,high,kudoos
+verylow,medium,verylow,medium,high,participation
+verylow,low,high,high,medium,kudoos
+verylow,high,medium,high,medium,kudoos
+low,veryhigh,low,high,high,kudoos
+high,high,high,high,high,star
+high,medium,veryhigh,high,high,star

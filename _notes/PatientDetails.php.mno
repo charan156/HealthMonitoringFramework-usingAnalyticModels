@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_PatientDetails" value="name:id;datatype:int,name:medicine;datatype:string,name:diagnosis;datatype:string,name:instructions;datatype:string,name:doc_name;datatype:string" />
+	<infoitem key="UD_filter" value="name:medicine;datatype:string,name:diagnosis;datatype:string,name:instructions;datatype:string,name:doc_name;datatype:string" />
+	<infoitem key="UD_patientdetails" value="name:name;datatype:string,name:age;datatype:int,name:gender;datatype:string,name:occupation;datatype:string" />
+</info>
